@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: nginx:1.27
+        image: A40820AB5DE324D5FA6F1035631ABFB0-1925417406.US-EAST-1.ELB.AMAZONAWS.COM/HARBOR_PROJECT/app:build-6
         ports:
         - containerPort: 80
         envFrom:
