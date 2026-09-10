@@ -12,9 +12,11 @@ spec:
       labels:
         app: gitops-demo
     spec:
+      imagePullSecrets:
+      - name: harbor-registry
       containers:
       - name: nginx
-        image: a40820ab5de324d5fa6f1035631abfb0-1925417406.us-east-1.elb.amazonaws.com/harbor_project/app:build-6 
+        image: a40820ab5de324d5fa6f1035631abfb0-1925417406.us-east-1.elb.amazonaws.com/student06/app:build-
         ports:
         - containerPort: 80
         envFrom:
