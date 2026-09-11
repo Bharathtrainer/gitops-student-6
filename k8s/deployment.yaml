@@ -16,7 +16,7 @@ spec:
       - name: harbor-registry
       containers:
       - name: nginx
-        image: ASDa40820ab5de324d5fa6f1035631abfb0-1925417406.us-east-1.elb.amazonaws.com/student06/app:build-
+        image: a40820ab5de324d5fa6f1035631abfb0-1925417406.us-east-1.elb.amazonaws.com/student06/app:build-
         ports:
         - containerPort: 80
         envFrom:
